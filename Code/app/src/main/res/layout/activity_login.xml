@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BF8969"
-    android:backgroundTint="#BF8969"
-    tools:context=".MainActivity" />
+    tools:context=".LoginActivity">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
