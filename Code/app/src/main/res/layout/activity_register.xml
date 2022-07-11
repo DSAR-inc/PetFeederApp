@@ -8,72 +8,94 @@
     tools:context=".RegisterActivity" >
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/MensajeRegistro"
         android:layout_width="133dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="124dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/chewy"
         android:text="Registro"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etNombreRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/InputNombreRegister"
+        android:layout_width="343dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
         android:hint="Nombre"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="*Requerido"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@id/MensajeRegistro"
+        app:startIconDrawable="@drawable/ic_user">
 
-    <EditText
-        android:id="@+id/etEmailRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="28dp"
-        android:autofillHints=""
-        android:ems="10"
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/InputEmailRegister"
+        android:layout_width="343dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
         android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:textColorHint="#795548"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:counterEnabled="true"
+        app:counterMaxLength="21"
+        app:helperText="*Requerido"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNombreRegistro" />
+        app:layout_constraintTop_toBottomOf="@id/InputNombreRegister"
+        app:startIconDrawable="@drawable/ic_email">
 
-    <EditText
-        android:id="@+id/etPasswordRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="32dp"
-        android:ems="10"
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/InputContraseñaRegister"
+        android:layout_width="343dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
         android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:helperText="*Requerido"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmailRegister"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@id/InputEmailRegister"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/botonRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:background="#000000"
+        android:layout_width="301dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
         android:backgroundTint="#000000"
         android:text="Registrarse"
         android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
@@ -81,17 +103,18 @@
         android:id="@+id/checkBox"
         android:layout_width="274dp"
         android:layout_height="50dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
         android:text="Esta seguro de recibir notificaciones a su correo."
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPasswordRegister" />
+        app:layout_constraintTop_toBottomOf="@+id/InputContraseñaRegister" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="193dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
         android:singleLine="false"
         android:text="Tienes cuenta? \nInicia Sesion"
         android:textAlignment="center"
