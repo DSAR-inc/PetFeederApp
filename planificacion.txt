@@ -1,7 +1,11 @@
 Planificacion de trabajo
-Tareas
+Tareas 
+Fecha de inicio: 09/10/2022
+Fecha de entrega: 16/10/2022
+
 • Diseñar un top bar general para la aplicación (Cesar)
 • Para la activity notificaciones leer https://material.io/components/lists#behavior y presentar una posible solucion (Nager, Kevin)
 • Para la activity Información investigar sobre las ProgressBar (Nager)
 • Hacer el perfil de Usuario (Material Design TextFields, textViews) https://material.io/components/text-fields#usage (Kevin)
 • Hacer el navigation Bar (Cesar)
+* Hacer el readme (Cesar)
