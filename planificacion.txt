@@ -3,9 +3,18 @@ Tareas
 Fecha de inicio: 09/10/2022
 Fecha de entrega: 16/10/2022
 
-• Diseñar un top bar general para la aplicación (Cesar)
-• Para la activity notificaciones leer https://material.io/components/lists#behavior y presentar una posible solucion (Nager, Kevin)
-• Para la activity Información investigar sobre las ProgressBar (Nager)
-• Hacer el perfil de Usuario (Material Design TextFields, textViews) https://material.io/components/text-fields#usage (Kevin)
-• Hacer el navigation Bar (Cesar)
-* Hacer el readme (Cesar)
+• Diseñar un top bar general para la aplicación (Cesar) Hecha: Falta ajustar a fragmentos
+• Para la activity notificaciones leer https://material.io/components/lists#behavior y presentar una posible solucion (Nager, Kevin) Hecho
+• Para la activity Información investigar sobre las ProgressBar (Nager) No confirmado
+• Hacer el perfil de Usuario (Material Design TextFields, textViews) https://material.io/components/text-fields#usage (Kevin) Hecho
+• Hacer el navigation Bar (Cesar) Hecho: Adaptar a fragmentos
+* Hacer el readme (Cesar) No completado
+
+Fecha de inicio: 23/10/2022
+Fecha de chequeo: 26/10/2022
+Fecha de entrega: 30/10/2022
+
+* Hacer el readme (Cesar) 
+* Estudiar fragments (Cesar, Kevin, Nager)
+* Estudiar acerca de recycler view (Cesar, Kevin, Nager)
+* Definir la estructura definitiva de usuario en la base de datos (Cesar, Kevin, Nager)
