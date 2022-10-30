@@ -14,7 +14,16 @@ Fecha de inicio: 23/10/2022
 Fecha de chequeo: 26/10/2022
 Fecha de entrega: 30/10/2022
 
-* Hacer el readme (Cesar) 
-* Estudiar fragments (Cesar, Kevin, Nager)
-* Estudiar acerca de recycler view (Cesar, Kevin, Nager)
-* Definir la estructura definitiva de usuario en la base de datos (Cesar, Kevin, Nager)
+* Hacer el readme (Cesar) (Completado)
+* Estudiar fragments (Cesar, Kevin, Nager) (Completado)
+* Estudiar acerca de recycler view (Cesar, Kevin, Nager) (Cesar falta implementacion, Kevin le falta implementacion, Nager repasar con Java) 
+* Definir la estructura definitiva de usuario en la base de datos (Cesar, Kevin, Nager) (Completado)
+
+Fecha de inicio: 31/10/2022
+Fecha de chequeo: 02/11/2022
+Fecha de entrega: 06/11/2022
+
+* Implementar el botton navigation bar con las animaciones correspondientes (Cesar)
+* Hacer la top bar (Nager)
+* Implementar las reglas de seguridad del realTimeDatabase (Kevin, Nager)
+* Presentar un boceto de como usar usarian las cards junto con el recycler view para hacer las notificaciones (Cesar)
