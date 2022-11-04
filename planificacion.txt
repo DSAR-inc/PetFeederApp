@@ -23,7 +23,9 @@ Fecha de inicio: 31/10/2022
 Fecha de chequeo: 02/11/2022
 Fecha de entrega: 06/11/2022
 
-* Implementar el botton navigation bar con las animaciones correspondientes (Cesar)
+* Implementar el botton navigation bar con las animaciones correspondientes (Cesar) (en proceso)
 * Hacer la top bar (Nager)
-* Implementar las reglas de seguridad del realTimeDatabase (Kevin, Nager)
-* Presentar un boceto de como usar usarian las cards junto con el recycler view para hacer las notificaciones (Cesar)
+* Hacer su modelo de card (Nager)
+* Implementar las reglas de seguridad del realTimeDatabase (Kevin, Nager) //Se aplaza (Pero se definio usar FireStore)
+* Terminar el fragment Administrador parte diseño (Kevin)
+* Presentar un boceto de como usar usarian las cards junto con el recycler view para hacer las notificaciones (Cesar) (en proceso)
